@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <link rel="stylesheet" href="/static/css/style.css" />
+		<title>Contact US</title>
+	</head>
+	<body>
+		<header class style="background-color: orange">
+	    <a href="homepage.html">homepage</a> <a href="about us.html">about us</a> <a href="contact us.html">contact us</a>
+		</header>
+
+		<h1>Contact US</h1>
+		<p id="nameerror"></p>
+<p id="subjecterror"></p>
+<p id="emailerror"></p>
+<p id="messageerror"></p>
+<p id="success"></p>
+</p>
+</header>
+<form action="/contact" method="POST">
+  <p>
+ <p>
+  <label for="name">Name</label>
+  <input id = "name" type="text" name="name">
+</p>
+  <p>
+  <label for="subject">Subject</label>
+  <input id = "subject" type="text" name="subject">
+</p>
+  <p>
+  <label for="email">Email</label>
+  <input id = "email" type="text" name="email">
+  </p>
+  <p ><label class="label" for="message">Message</label>
+  <textarea id = "message" name="message" cols="40" rows="10">We are looking forward to your message!</textarea></p>
+  <p><input type="submit"  value="Submit" onclick="setLocalStorage()" /></p>
+</form>
+
+        
+
+		<script src="/static/js/script.js"></script>
+
+		
+        <footer class style="background-color: orange">
+        <a href="homepage.html">homepage</a> <a href="about us.html">about us</a> <a href="contact us.html">contact us</a>
+        </footer>
+        <div class="footer">
+        
+        </div>
+
+		
+	</body>
+</html>
+
+
+
+
+	
