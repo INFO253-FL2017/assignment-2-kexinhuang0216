@@ -1,0 +1,109 @@
+
+body {
+  padding: 10px 20px;
+	font-family: Helvetica;
+	font-size: 1.3em;
+  width: 850px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header, footer{
+  display: flex;
+  border-radius: 20px;
+  background-color: #b3e0ff;
+}
+
+footer{
+  display: flex;
+}
+
+.maintitle{
+  margin:0px 100px 0px 10px;
+  outline-color: yellow;
+}
+
+h1{
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 90px;
+}
+
+.links{
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.link{
+  margin: 0px 5px;
+}
+
+.index{
+  margin-right: 0;
+	line-height: 44px;
+}
+
+ul{
+  margin: auto;
+}
+
+.row{
+  display: flex;
+  background-color: #294860;
+  border-radius: 20px;
+	color: white;
+	padding: 10px;
+	margin: 20px auto;
+}
+
+.text{
+  width: 90%;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+	padding: 30px;
+  margin: 20px;
+}
+
+.stress{
+  font-style: italic;
+}
+.photo{
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 20px;
+  margin: 20px;
+}
+
+img{
+  max-width: 260px;
+}
+
+.subtitle{
+  color: black;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.rights{
+  font-size: 13px;
+  text-align: center;
+}
+
+.center{
+  margin: auto auto;
+}
+
+a:link { 
+color: #000000; 
+text-decoration: none; 
+} 
+a:visited {  
+color: #000000; 
+text-decoration: none; 
+} 
+a:hover { 
+color: #999999; 
+text-decoration: underline; 
+} 
